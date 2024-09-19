@@ -12,7 +12,7 @@ public enum SignUpErrorCode implements BaseErrorCode {
     ),
     PASSWORD_WITH_CONSECUTIVE_CHARACTERS(
             """
-            The password contains some consecutive characters like \"123\" or \"abc\".
+            The password contains some consecutive characters like "123" or "abc".
             It is allowed up to 2 consecutive numbers or letters.""",
             400
     ),
